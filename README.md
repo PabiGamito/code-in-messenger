@@ -1,2 +1,4 @@
-# Code-in-Messenger
-Project started during Facebook's 2018 London Hackathon to add the ability to send and received code and latex in a clean way on messenger
+# Facebook Hackathon London 2018
+Tom Miller, Pablo Gamito, Sam Liem
+
+Google Extension for Latex and Code support across messenging platforms
