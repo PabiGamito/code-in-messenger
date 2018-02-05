@@ -1,11 +1,8 @@
 {
-    //manifest spec: http://developer.chrome.com/extensions/manifest.html
-    //required
     "name": "SnippetParse",
     "version": "1.0",
     "manifest_version": 2,
 
-    //recommended
     "description": "Parser Widget for Facebook Messenger",
     "icons": {
         "19": "images/icon_19.png",
@@ -13,7 +10,6 @@
         "128": "images/icon_128.png"
     },
 
-    //required
     "browser_action": {
         "default_title": "browser_action: default_title",
         "default_icon": {
@@ -23,7 +19,6 @@
         "default_popup": "html/main.html"
     },
 
-    //additional
     "options_page": "html/options.html",
     "homepage_url": "http://yourdomainhere.com/",
     "background": {
@@ -49,7 +44,6 @@
           "js": [
             "lib/js/jquery-1.9.1.min.js",
             "lib/js/google-code-prettify/prettify.js",
-            // "js/widgetInPage.js",
             "js/renderCode/codify.js",
             "js/renderTex/texify.js",
             "js/preview-code.js"
